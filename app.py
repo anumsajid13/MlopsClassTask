@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Deploying Flask App at Vercel"
+    return "Deploying Lab Task at Vercel"
 
 if __name__ == "__main__":
     import os
